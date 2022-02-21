@@ -12,14 +12,77 @@ import Familia from "./components/basicos/Familia"
 import FamiliaMembro from "./components/basicos/FamiliaMembro"
 import Camera from "./components/basicos/layout/Camera"
 
-export default _ =>
-    <div className="App">
+import ListaAlunos from "./components/repeticao/ListaAlunos"
+import TabelaProdutos from "./components/repeticao/TabelaProdutos"
 
-        
+import ParOuImpar from "./components/condicional/ParOuImpar"
+import UsuarioInfo from "./components/condicional/UsuarioInfo"
+
+import DiretaPai from "./components/comunicacao/DiretaPai"
+
+import IndiretaPai from "./components/comunicacao/IndiretaPai"
+
+import Input from "./components/formulario/Input"
+
+import Contador from "./components/contador/Contador"
+
+import Fatorial from "./components/contador/Fatorial.jsx"
+
+import Mega from "./components/mega/Mega"
+
+export default _ => 
+    <div className="App">
 
         <h1>Fundamentos React </h1>
 
         <div className="Cards">
+
+            <Card titulo="#13 - Sorteador Mega-Sena" color="#FF2985"> 
+                <Mega qntde={6}/>
+            </Card>
+
+            <Card titulo="Calculadora Fatorial"> 
+                <Fatorial>
+                    <input id="input"></input>
+                </Fatorial>
+            </Card>
+
+            <Card titulo="#12 - Contador" color="#FCC600"> 
+                <Contador numeroInicial= {0} />
+            </Card>
+
+            <Card titulo="#11 - Componente Controlado (Input)" color="#FFC300"> 
+                <Input/>
+            </Card>
+
+            <Card>
+                <p id="countdown">25:00</p>
+                <script src="Countdown.js"></script>
+            </Card>
+
+
+            <Card titulo="#10 - Comunicação Indireta" color="#CC1421">
+                <IndiretaPai></IndiretaPai>
+            </Card>
+            
+            <Card titulo="#09 - Comunicação Direta" color="#BB2985">
+                <DiretaPai></DiretaPai>
+            </Card>
+
+            <Card titulo="#08 - Renderização condicional" color="#FF2985">
+                <ParOuImpar numero={21} />
+                <UsuarioInfo usuario={{nome: 'Fernando'}}/>
+                {/* <UsuarioInfo usuario={{}}/>
+                <UsuarioInfo /> */}
+            </Card>
+
+            <Card titulo="#07 - Exercício Repetição com map" color="#FF4835">
+                <TabelaProdutos />
+            </Card>
+
+            <Card titulo="#06 - Repetição utilizando map" color="#FF4C65">
+                <ListaAlunos />
+            </Card>
 
             <Card titulo="Input Câmera" color="#133e7c">
                 <Camera/>

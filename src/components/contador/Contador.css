@@ -1,0 +1,75 @@
+.Contador input {
+    font-size: 1.0rem;
+    margin: 10px;
+}
+
+.Contador h3 {
+    padding: 2%;
+    margin: 20px 30px 20px 30px;
+    background-color: #FCC600;
+    border-radius: 12px;
+}
+
+.Contador {
+    border: 3px solid #FCC600; 
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Contador button {
+    font-size: 1.4rem;
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: #FCC600;
+    margin: 5px;
+}
+
+.Fatorial button {
+    font-size: 1.1rem;
+    background-color: blueviolet;
+    color: white;
+    border-style: none;
+    width: 70%;
+    min-height: 35px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.Fatorial button:hover {
+    background-color: #663399;
+}
+
+.Fatorial {
+    border: 3px solid blueviolet; 
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+}
+
+.Fatorial h3 {
+    color: #442265;
+}
+
+#resultado {
+    color: #442265;
+    background-color: #B4A8FF;
+    border-radius: 12px;
+    font-size: 1.4rem;
+    margin: auto;
+    width: 70%;
+    justify-content: center;
+}
+
+#input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    width: 30%;
+}

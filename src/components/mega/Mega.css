@@ -1,0 +1,47 @@
+.Mega {
+    border: 3px solid #FF2985; 
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+}
+
+.Mega input {
+    font-size: 1.4rem;
+    width: 10%;
+    text-align: center;
+}
+
+.Mega label {
+    font-size: 1.4rem;
+}
+
+.Mega h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Mega button {
+    font-size: 1.1rem;
+    background-color: #FF2985;
+    color: white;
+    border-style: none;
+    width: 70%;
+    min-height: 35px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.Mega button:hover {
+    background-color: #CC206A;
+}
+
+.Mega h3 {
+    color: white;
+    padding: 2%;
+    background-color: #FF2985;
+    border-radius: 12px;
+    width: 70%;
+    margin: auto;
+}
+
